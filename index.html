@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hobbies</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * /*Universal Selector*/
+            {
+                font-family: 'Courier New', Courier, monospace;
+            }
+            h3  /*Tag Selector*/
+            {
+                color: brown;
+                text-align: center;
+                font-size: x-large;
+            }
+
+            p /*Tag Selector*/
+            {
+                color: red;
+                text-align:center;
+                font-size:large;
+            }
+
+            img /*Tag Selector*/
+            {
+                width: 200px;
+                height: 150px; 
+                display: block;
+                margin: auto;
+            }
+
+            #img1 /*Id Selector*/
+            {
+                border: 4px solid red;
+            }
+
+            #img2 /*Id Selector*/
+            {
+                border: 4px solid green;
+            }
+
+            .img3 /*Class Selector*/
+            {
+                border: 4px solid blue;
+            }
+
+            ul /*Tag Selector*/
+            {
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+
+    </head>
+    <body style="background-color:beige;">
+        <h3>Hello Everyone, Nimish Here</h3>
+        <ul type="circle" style="color:rgb(228, 14, 178);font-size:20px">
+            <li>Chess</li>
+                <img id="img1" src="https://images.unsplash.com/photo-1604948501466-4e9c339b9c24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Chessimg">
+            
+            <li>Rubix Cube</li>
+                <img id="img2" src="https://images.unsplash.com/photo-1496354265829-17b1c7b7c363?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1754&q=80" alt="RubixCubeimg">
+
+            <li>Football</li>
+                <img class="img3" src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80" alt="Footballimg">
+        </ul>
+        </body>
+</html>
